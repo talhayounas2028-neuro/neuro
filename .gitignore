@@ -1,0 +1,17 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Brian2 build artifacts
+brian_build/
+
+# Conda environment folders
+env/
+.venv/
+
+# OS junk
+.DS_Store
+Thumbs.db

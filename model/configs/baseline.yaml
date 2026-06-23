@@ -1,0 +1,10 @@
+conductances:
+  gEEN: 0.165
+  gEIN: 0.13
+
+noise:
+  rate_ext_E: 2400
+  rate_ext_I: 2400
+
+stimulus:
+  coherence: 12.8
