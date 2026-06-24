@@ -1,0 +1,16 @@
+{
+  "os":  "Windows-11-10.0.26200-SP0",
+  "python":  "CPython 3.13.14",
+  "startedAt":  "2026-06-24T11:15:30.601805Z",
+  "program":  "neuro/simcode_gEEN.ipynb",
+  "codePath":  "neuro/simcode_gEEN.ipynb",
+  "git":  {
+    "remote":  "https://github.com/talhayounas2028-neuro/neuro.git",
+    "commit":  "a595a0eee6eb9a0541fc98a3d1dfa7d36574f539"
+  },
+  "email":  "talha.younas.2028@gmail.com",
+  "root":  "C:\\Users\\talha\\neuro",
+  "host":  "IdeaPad114IJL7",
+  "executable":  "C:\\Users\\talha\\miniforge3\\envs\\neuro\\python.exe",
+  "writerId":  "jc7pept84byvvhwwzpx562v5e7ov00rg"
+}

@@ -1,0 +1,145 @@
+2026-06-24 15:47:52,671 INFO    MainThread:4348 [wandb_setup.py:_flush():81] Current SDK version is 0.28.0
+2026-06-24 15:47:52,671 INFO    MainThread:4348 [wandb_setup.py:_flush():81] Configure stats pid to 4348
+2026-06-24 15:47:52,671 INFO    MainThread:4348 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-06-24 15:47:52,672 INFO    MainThread:4348 [wandb_init.py:setup_run_log_directory():725] Logging user logs to C:\Users\talha\neuro\wandb\run-20260624_154752-yavldwa1\logs\debug.log
+2026-06-24 15:47:52,675 INFO    MainThread:4348 [wandb_init.py:setup_run_log_directory():726] Logging internal logs to C:\Users\talha\neuro\wandb\run-20260624_154752-yavldwa1\logs\debug-internal.log
+2026-06-24 15:47:52,676 INFO    MainThread:4348 [wandb_init.py:monkeypatch_ipython():644] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000001BECF3434D0>
+2026-06-24 15:47:52,677 INFO    MainThread:4348 [wandb_init.py:init():768] calling init triggers
+2026-06-24 15:47:52,678 INFO    MainThread:4348 [wandb_init.py:init():773] wandb.init called with sweep_config: {}
+config: {'NUM_TRIALS': 1, 'sweep_parameter': 'gEEN', 'sweep_values': [0.165], '_wandb': {}}
+2026-06-24 15:47:52,679 INFO    MainThread:4348 [wandb_init.py:init():816] starting backend
+2026-06-24 15:47:52,680 INFO    MainThread:4348 [wandb_init.py:init():831] sending inform_init request
+2026-06-24 15:47:53,858 INFO    MainThread:4348 [wandb_init.py:init():836] backend started and connected
+2026-06-24 15:47:53,882 INFO    MainThread:4348 [wandb_run.py:_label_probe_notebook():1276] probe notebook
+2026-06-24 15:47:53,884 INFO    MainThread:4348 [wandb_run.py:_label_probe_notebook():1286] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2026-06-24 15:47:53,884 INFO    MainThread:4348 [wandb_init.py:init():906] updated telemetry
+2026-06-24 15:47:54,072 INFO    MainThread:4348 [wandb_init.py:init():929] communicating run to backend with 90.0 second timeout
+2026-06-24 15:47:54,960 INFO    MainThread:4348 [wandb_init.py:init():974] starting run threads in backend
+2026-06-24 15:48:06,264 INFO    MainThread:4348 [wandb_run.py:_console_start():2523] atexit reg
+2026-06-24 15:48:06,264 INFO    MainThread:4348 [wandb_run.py:_redirect():2373] redirect: wrap_raw
+2026-06-24 15:48:06,265 INFO    MainThread:4348 [wandb_run.py:_redirect():2442] Wrapping output streams.
+2026-06-24 15:48:06,265 INFO    MainThread:4348 [wandb_run.py:_redirect():2465] Redirects installed.
+2026-06-24 15:48:06,526 INFO    MainThread:4348 [wandb_init.py:init():1012] run started, returning control to user process
+2026-06-24 15:52:19,447 INFO    MainThread:4348 [wandb_init.py:_post_run_cell_hook():614] [no run ID] resuming backend
+2026-06-24 15:59:44,694 INFO    MainThread:4348 [jupyter.py:save_ipynb():362] [no run ID] not saving jupyter notebook
+2026-06-24 15:59:44,726 INFO    MainThread:4348 [wandb_init.py:_pre_run_cell_hook():603] [no run ID] pausing backend
+2026-06-24 15:59:49,096 INFO    MainThread:4348 [wandb_run.py:_finish():2285] finishing run talha-younas-2028-independent-researcher/neuro/yavldwa1
+2026-06-24 15:59:49,184 INFO    MainThread:4348 [jupyter.py:save_history():435] not saving jupyter history
+2026-06-24 15:59:49,184 INFO    MainThread:4348 [jupyter.py:save_ipynb():362] not saving jupyter notebook
+2026-06-24 15:59:49,184 INFO    MainThread:4348 [wandb_init.py:_jupyter_teardown():629] cleaning up jupyter logic
+2026-06-24 15:59:49,187 INFO    MainThread:4348 [wandb_run.py:_atexit_cleanup():2490] got exitcode: 0
+2026-06-24 15:59:49,202 INFO    MainThread:4348 [wandb_run.py:_restore():2472] restore
+2026-06-24 15:59:49,209 INFO    MainThread:4348 [wandb_run.py:_restore():2478] restore done
+2026-06-24 16:01:40,677 ERROR   wandb-AsyncioManager-main:4348 [service_client.py:_forward_responses():119] [no run ID] Error reading server response.
+Traceback (most recent call last):
+  File "C:\Users\talha\miniforge3\envs\neuro\Lib\site-packages\wandb\sdk\lib\service\service_client.py", line 115, in _forward_responses
+    while response := await self._read_server_response():
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\talha\miniforge3\envs\neuro\Lib\site-packages\wandb\sdk\lib\service\service_client.py", line 129, in _read_server_response
+    header = await self._reader.readexactly(_HEADER_BYTE_INT_LEN)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\talha\miniforge3\envs\neuro\Lib\asyncio\streams.py", line 769, in readexactly
+    await self._wait_for_data('readexactly')
+  File "C:\Users\talha\miniforge3\envs\neuro\Lib\asyncio\streams.py", line 539, in _wait_for_data
+    await self._waiter
+  File "C:\Users\talha\miniforge3\envs\neuro\Lib\asyncio\selector_events.py", line 1012, in _read_ready__data_received
+    data = self._sock.recv(self.max_size)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-06-24 16:01:41,464 INFO    wandb-AsyncioManager-main:4348 [mailbox.py:close():154] [no run ID] Closing mailbox, abandoning 4 handles.
+2026-06-24 16:01:41,482 ERROR   wandb-AsyncioManager-main:4348 [asyncio_manager.py:fn_wrap_exceptions():184] Uncaught exception in run_soon callback.
+Traceback (most recent call last):
+  File "C:\Users\talha\miniforge3\envs\neuro\Lib\site-packages\wandb\sdk\lib\asyncio_manager.py", line 182, in fn_wrap_exceptions
+    await fn()
+  File "C:\Users\talha\miniforge3\envs\neuro\Lib\site-packages\wandb\sdk\lib\run_stopping.py", line 87, in loop
+    should_stop = await self._check_should_stop()
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\talha\miniforge3\envs\neuro\Lib\site-packages\wandb\sdk\lib\run_stopping.py", line 116, in _check_should_stop
+    result = await handle.wait_async(timeout=None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\talha\miniforge3\envs\neuro\Lib\site-packages\wandb\sdk\mailbox\mailbox_handle.py", line 127, in wait_async
+    response = await self._handle.wait_async(timeout=timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\talha\miniforge3\envs\neuro\Lib\site-packages\wandb\sdk\mailbox\response_handle.py", line 123, in wait_async
+    raise HandleAbandonedError()
+wandb.sdk.mailbox.mailbox_handle.HandleAbandonedError
+2026-06-24 16:01:41,575 ERROR   wandb-AsyncioManager-main:4348 [asyncio_manager.py:fn_wrap_exceptions():184] Uncaught exception in run_soon callback.
+Traceback (most recent call last):
+  File "C:\Users\talha\miniforge3\envs\neuro\Lib\site-packages\wandb\sdk\lib\asyncio_manager.py", line 182, in fn_wrap_exceptions
+    await fn()
+  File "C:\Users\talha\miniforge3\envs\neuro\Lib\site-packages\wandb\sdk\lib\run_messages.py", line 90, in loop
+    await asyncio_compat.race(
+    ...<2 lines>...
+    )
+  File "C:\Users\talha\miniforge3\envs\neuro\Lib\site-packages\wandb\sdk\lib\asyncio_compat.py", line 278, in race
+    async with open_task_group(race=True) as tg:
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\talha\miniforge3\envs\neuro\Lib\contextlib.py", line 221, in __aexit__
+    await anext(self.gen)
+  File "C:\Users\talha\miniforge3\envs\neuro\Lib\site-packages\wandb\sdk\lib\asyncio_compat.py", line 240, in open_task_group
+    await task_group._wait_all(race=race, timeout=exit_timeout)
+  File "C:\Users\talha\miniforge3\envs\neuro\Lib\site-packages\wandb\sdk\lib\asyncio_compat.py", line 180, in _wait_all
+    raise exc
+  File "C:\Users\talha\miniforge3\envs\neuro\Lib\site-packages\wandb\sdk\lib\run_messages.py", line 113, in _print_all
+    result = await handle.wait_async(timeout=None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\talha\miniforge3\envs\neuro\Lib\site-packages\wandb\sdk\mailbox\mailbox_handle.py", line 127, in wait_async
+    response = await self._handle.wait_async(timeout=timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\talha\miniforge3\envs\neuro\Lib\site-packages\wandb\sdk\mailbox\response_handle.py", line 123, in wait_async
+    raise HandleAbandonedError()
+wandb.sdk.mailbox.mailbox_handle.HandleAbandonedError
+2026-06-24 16:01:41,830 WARNING MainThread:4348 [wandb_init.py:init():1522] [no run ID] interrupted
+Traceback (most recent call last):
+  File "C:\Users\talha\miniforge3\envs\neuro\Lib\site-packages\wandb\sdk\wandb_init.py", line 1513, in init
+    run = wi.init(run_settings, run_config, run_printer)
+  File "C:\Users\talha\miniforge3\envs\neuro\Lib\site-packages\wandb\sdk\wandb_init.py", line 789, in init
+    self._wl.finish_all_active_runs()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\talha\miniforge3\envs\neuro\Lib\site-packages\wandb\sdk\wandb_setup.py", line 167, in finish_all_active_runs
+    run.finish()
+    ~~~~~~~~~~^^
+  File "C:\Users\talha\miniforge3\envs\neuro\Lib\site-packages\wandb\sdk\wandb_run.py", line 329, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\talha\miniforge3\envs\neuro\Lib\site-packages\wandb\sdk\wandb_run.py", line 374, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\talha\miniforge3\envs\neuro\Lib\site-packages\wandb\sdk\wandb_run.py", line 2267, in finish
+    self._finish(exit_code)
+    ~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\talha\miniforge3\envs\neuro\Lib\site-packages\wandb\sdk\wandb_run.py", line 329, in wrapper
+    return func(self, *args, **kwargs)
+  File "C:\Users\talha\miniforge3\envs\neuro\Lib\site-packages\wandb\sdk\wandb_run.py", line 2301, in _finish
+    self._atexit_cleanup(exit_code=exit_code)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\talha\miniforge3\envs\neuro\Lib\site-packages\wandb\sdk\wandb_run.py", line 2501, in _atexit_cleanup
+    self._on_finish()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Users\talha\miniforge3\envs\neuro\Lib\site-packages\wandb\sdk\wandb_run.py", line 2758, in _on_finish
+    result = wait_with_progress(
+        exit_handle,
+    ...<5 lines>...
+        ),
+    )
+  File "C:\Users\talha\miniforge3\envs\neuro\Lib\site-packages\wandb\sdk\mailbox\wait_with_progress.py", line 24, in wait_with_progress
+    return wait_all_with_progress(
+           ~~~~~~~~~~~~~~~~~~~~~~^
+        [handle],
+        ^^^^^^^^^
+        timeout=timeout,
+        ^^^^^^^^^^^^^^^^
+        display_progress=display_progress,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )[0]
+    ^
+  File "C:\Users\talha\miniforge3\envs\neuro\Lib\site-packages\wandb\sdk\mailbox\wait_with_progress.py", line 78, in wait_all_with_progress
+    return asyncer.run(progress_loop_with_timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\talha\miniforge3\envs\neuro\Lib\site-packages\wandb\sdk\lib\asyncio_manager.py", line 137, in run
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "C:\Users\talha\miniforge3\envs\neuro\Lib\concurrent\futures\_base.py", line 455, in result
+    self._condition.wait(timeout)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\talha\miniforge3\envs\neuro\Lib\threading.py", line 359, in wait
+    waiter.acquire()
+    ~~~~~~~~~~~~~~^^
+KeyboardInterrupt
