@@ -9,3 +9,18 @@
 {"time":"2026-06-24T16:15:40.5954994+05:00","level":"INFO","msg":"filestream: request sent","status":"200 OK"}
 {"time":"2026-06-24T16:15:54.7762831+05:00","level":"INFO","msg":"filestream: sending request","total_files":0,"uploaded_len":1}
 {"time":"2026-06-24T16:15:55.28957+05:00","level":"INFO","msg":"filestream: request sent","status":"200 OK"}
+{"time":"2026-06-24T16:16:24.7776816+05:00","level":"INFO","msg":"filestream: sending request","total_files":0}
+{"time":"2026-06-24T16:16:25.4702214+05:00","level":"INFO","msg":"filestream: request sent","status":"200 OK"}
+{"time":"2026-06-24T16:16:54.7981043+05:00","level":"INFO","msg":"filestream: sending request","total_files":0}
+{"time":"2026-06-24T16:16:56.2768484+05:00","level":"INFO","msg":"filestream: request sent","status":"200 OK"}
+{"time":"2026-06-24T16:17:24.8888855+05:00","level":"INFO","msg":"filestream: sending request","total_files":0}
+{"time":"2026-06-24T16:17:25.7174094+05:00","level":"INFO","msg":"filestream: request sent","status":"200 OK"}
+{"time":"2026-06-24T16:17:55.4014201+05:00","level":"INFO","msg":"filestream: sending request","total_files":0}
+{"time":"2026-06-24T16:17:56.4489049+05:00","level":"INFO","msg":"filestream: request sent","status":"200 OK"}
+{"time":"2026-06-24T16:18:24.9353576+05:00","level":"INFO","msg":"filestream: sending request","total_files":0}
+{"time":"2026-06-24T16:18:25.5634456+05:00","level":"INFO","msg":"filestream: request sent","status":"200 OK"}
+{"time":"2026-06-24T16:18:37.1466716+05:00","level":"INFO","msg":"filestream: sending request","total_files":1}
+{"time":"2026-06-24T16:18:37.5281214+05:00","level":"INFO","msg":"filestream: request sent","status":"200 OK"}
+{"time":"2026-06-24T16:18:52.1331401+05:00","level":"INFO","msg":"filestream: sending request","total_files":1,"history_offset":0,"history_lines":1}
+{"time":"2026-06-24T16:18:52.7955884+05:00","level":"INFO","msg":"filestream: request sent","status":"200 OK"}
+{"time":"2026-06-24T16:19:22.1205609+05:00","level":"INFO","msg":"filestream: sending request","total_files":0}
